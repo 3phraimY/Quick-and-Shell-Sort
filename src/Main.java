@@ -3,7 +3,7 @@ import java.util.Random;
 public class Main {
 	public static void main(String[] args) 
 	{
-		int[] arr = RandomArrayGenerator(1000);
+		int[] arr = RandomArrayGenerator(10000);
 		int[] copy = arr.clone();
 		long start, end;
 		
